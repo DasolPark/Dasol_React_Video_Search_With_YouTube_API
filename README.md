@@ -7,8 +7,8 @@
 
 - [x] : Search Bar
 - [x] : Get Videos From YouTube
-- [ ] : Video List
-- [ ] : Video Item
+- [x] : Video List
+- [x] : Video Item
 - [ ] : Video Detail (Clicked Item)
 - [ ] : Loader(Searching...)
 - [ ] : Styling

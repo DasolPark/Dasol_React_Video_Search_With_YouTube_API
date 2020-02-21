@@ -1,17 +1,13 @@
 import React from 'react';
+import './VideoList.css';
+import VideoItem from './VideoItem';
 
 const VideoList = ({ videos }) => {
-  const videoItems = videos.map(video => {
-    return (
-      <img
-        src={video.snippet.thumbnails.medium.url}
-        key={video.id.videoId}
-        alt={video.snippet.description}
-      ></img>
-    );
+  const renderedList = videos.map(video => {
+    return <VideoItem video={video} key={video.id.videoId}></VideoItem>;
   });
 
-  return <div>{videoItems}</div>;
+  return <div className="video-list">{renderedList}</div>;
 };
 
 export default VideoList;
