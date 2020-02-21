@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dasol_React_Video_Search_With_YouTube_API/precache-manifest.ac46316f1895fbd2eab8ec34c5b92873.js"
+  "/Dasol_React_Video_Search_With_YouTube_API/precache-manifest.1b797b2396a8debe18ba19f54ee05420.js"
 );
 
 self.addEventListener('message', (event) => {
