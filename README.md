@@ -13,3 +13,4 @@
 - [x] Fixed Starting 'Word'
 - [x] Loader(Searching...) & No results found for 'keyword'
 - [x] Styling
+- [x] gh-pages
