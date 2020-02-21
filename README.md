@@ -8,8 +8,8 @@
 - [x] Search Bar
 - [x] Get Videos From YouTube
 - [x] Video List
-- [x] Video Item
+- [x] Video Item (scroll to top)
 - [x] Video Detail (Clicked Item)
 - [x] Fixed Starting 'Word'
-- [x] Loader(Searching...)
-- [ ] Styling
+- [x] Loader(Searching...) & No results found for 'keyword'
+- [x] Styling

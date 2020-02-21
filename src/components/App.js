@@ -24,7 +24,6 @@ class App extends React.Component {
         params: { q: term }
       });
 
-      console.log(response.data.items);
       if (response.data.items.length > 0) {
         this.setState({
           videos: response.data.items,
@@ -45,6 +44,7 @@ class App extends React.Component {
 
   onVideoSelect = video => {
     this.setState({ selectedVideo: video });
+    window.scrollTo(0, 0);
   };
 
   renderContent() {

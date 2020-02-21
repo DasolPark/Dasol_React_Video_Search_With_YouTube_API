@@ -1,0 +1,5 @@
+.ui.segment.video-detail {
+  box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.026), 0 0px 5.3px rgba(0, 0, 0, 0.037),
+    0 0px 10px rgba(0, 0, 0, 0.045), 0 0px 17.9px rgba(0, 0, 0, 0.053),
+    0 0px 33.4px rgba(0, 0, 0, 0.062), 0 0px 80px rgba(0, 0, 0, 0.07);
+}

@@ -1,11 +1,12 @@
 import React from 'react';
+import './VideoDetail.css';
 
 const VideoDetail = ({ video }) => {
   if (video) {
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
     return (
-      <div className="ui segment" style={{ marginTop: '10px' }}>
+      <div className="ui segment video-detail" style={{ marginTop: '10px' }}>
         <div className="ui embed">
           <iframe src={videoSrc} title="Video player"></iframe>
         </div>

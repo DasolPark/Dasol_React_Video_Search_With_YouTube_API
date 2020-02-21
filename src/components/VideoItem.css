@@ -1,6 +1,6 @@
 .video-item__container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   cursor: pointer;
@@ -8,6 +8,10 @@
 
 .video-item__container img {
   border-radius: 5px;
+  box-shadow: 0 0.5px 0.6px rgba(0, 0, 0, 0.052),
+    0 1.1px 1.4px rgba(0, 0, 0, 0.074), 0 2.1px 2.6px rgba(0, 0, 0, 0.091),
+    0 3.8px 4.7px rgba(0, 0, 0, 0.107), 0 7.1px 8.8px rgba(0, 0, 0, 0.123),
+    0 17px 21px rgba(0, 0, 0, 0.14);
 }
 
 .video-item__container h5 {
