@@ -10,6 +10,6 @@
 - [x] Video List
 - [x] Video Item
 - [x] Video Detail (Clicked Item)
-- [ ] Fixed Starting 'Word'
-- [ ] Loader(Searching...)
+- [x] Fixed Starting 'Word'
+- [x] Loader(Searching...)
 - [ ] Styling

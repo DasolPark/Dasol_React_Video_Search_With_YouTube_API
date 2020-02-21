@@ -5,7 +5,7 @@ const VideoDetail = ({ video }) => {
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
     return (
-      <div className="ui segment">
+      <div className="ui segment" style={{ marginTop: '10px' }}>
         <div className="ui embed">
           <iframe src={videoSrc} title="Video player"></iframe>
         </div>
