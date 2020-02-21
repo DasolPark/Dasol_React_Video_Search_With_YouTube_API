@@ -3,10 +3,13 @@ import './VideoItem.css';
 
 class VideoItem extends React.Component {
   render() {
-    const { video } = this.props;
+    const { video, onVideoSelect } = this.props;
 
     return (
-      <div className="video-item__container">
+      <div
+        className="video-item__container"
+        onClick={() => onVideoSelect(video)}
+      >
         <img
           src={video.snippet.thumbnails.medium.url}
           alt={video.snippet.description}

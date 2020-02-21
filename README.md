@@ -5,10 +5,11 @@
 
 # Goals
 
-- [x] : Search Bar
-- [x] : Get Videos From YouTube
-- [x] : Video List
-- [x] : Video Item
-- [ ] : Video Detail (Clicked Item)
-- [ ] : Loader(Searching...)
-- [ ] : Styling
+- [x] Search Bar
+- [x] Get Videos From YouTube
+- [x] Video List
+- [x] Video Item
+- [x] Video Detail (Clicked Item)
+- [ ] Fixed Starting 'Word'
+- [ ] Loader(Searching...)
+- [ ] Styling
